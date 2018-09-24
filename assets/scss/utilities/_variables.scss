@@ -1,0 +1,26 @@
+// Variables
+
+// Colors
+$primary: #0433FF;
+$black: #000;
+$white: #fff;
+$light-black: #333333;
+$map-color: #ff4136;
+$mobile-nav: #333333;
+
+// Modify Bootstrap colors
+$theme-colors: (
+  "primary": $primary,
+  //"danger": #ff4136
+);
+
+
+// Slider
+$slick-arrow-color: $white;
+$slick-dot-color: $black;
+$slick-dot-color-active: $slick-dot-color;
+$slick-dot-character: "\2022";
+$slick-dot-size: 6px;
+$slick-opacity-default: 0.75;
+$slick-opacity-on-hover: 1;
+$slick-opacity-not-active: 0.25;

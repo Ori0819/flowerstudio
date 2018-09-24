@@ -1,0 +1,35 @@
+.section-wrapper{
+   .section-title{
+      text-transform:uppercase;
+      
+      h2{font-size:50px;     
+      }
+   }
+   
+   .section-description{
+      
+      p{font-size:20px;
+      }
+   }
+   
+   .section-image{
+      padding:70px 0;
+      float: right;
+   }
+   .section-button{
+      button{
+         border:1px solid $red;
+         cursor: pointer;
+         background-color: transparent;
+      }
+      button:focus{
+         outline:none;
+      }
+      
+      span{
+         text-transform: uppercase;
+         color: $red;
+      }
+   }
+}
+

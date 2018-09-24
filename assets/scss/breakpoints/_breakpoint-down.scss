@@ -1,0 +1,162 @@
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {
+   
+   .site-footer ul{
+   .m-r-50{
+         margin-right: 0!important;
+      }
+   }
+   
+   
+   .site-footer ul li{
+      display: block;
+      font-size: 18px;
+      text-align: center;
+      list-style: none;
+   }
+   
+   .footer-menu{
+      .ml-auto{
+      margin:auto;
+      }
+   }
+   
+   .section-wrapper{
+      
+      .section-image{
+         padding:20px 0;
+      }
+   }
+   
+   
+   .p-l-50{
+         padding-left: 15px!important;
+      }
+   
+   .p-b-100{
+      padding-bottom: 50px !important;
+   }
+   
+   .suites-content {
+      .single-image{
+      padding-left: 15px;
+      }
+      .section-wrapper{
+      padding-left:15px !important;
+      
+   }
+   
+   }
+   .amenities-content {
+      .amenities-image{
+      margin-top:0;
+      
+      }
+      
+      .box-bottom{
+         margin-top:0;
+      }
+   }
+   
+
+   .image-callout{
+      margin:20px 0;
+   }
+   .site-footer .footer-menu ul{
+      display: block;
+      margin:auto;
+      padding-left: 0;
+      
+   }
+   
+   .footer-logo img{
+      display: flex;
+      margin: auto;
+   }
+   
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {
+
+}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {
+   .navbar-light .navbar-nav{
+      font-size: 14px;
+   }
+   .section-wrapper {
+      
+      .section-title h2{
+         font-size: 30px;}
+      .section-description p{
+         font-size:18px;
+      }
+      .m-b-50{
+         margin-bottom:25px!important;
+      }
+      
+   }
+   
+   .amenities-content  {
+      
+      .box-top{
+         
+      }
+      .box-bottom{
+         margin-left: 0;
+      }
+      }
+   
+   .suites-content .section-wrapper{
+      padding-right:0;
+      
+   }
+   .section-wrapper {
+      .section-title h2{
+        font-size:30px !important;
+   }
+   }
+   
+   
+   
+}
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {
+.navbar-light .navbar-nav{
+      font-size:12px;
+   }
+   .navbar{
+      padding: 20px 0;
+   }   
+   
+   .section-wrapper {
+      .section-title h2{
+        font-size:40px;
+   }
+      .section-description p{
+         font-size:16px;
+      }
+   }
+   .footer-menu {
+      .m-r-50{
+      margin-right:25px;
+      }
+   }
+   .navbar{
+      padding:20px 0;
+   }
+   
+   .section-wrapper{
+      .m-t-50{
+         margin-top:20px !important;
+      }
+      .m-b-50{
+         margin-bottom: 20px!important;
+      }
+   }
+   
+}

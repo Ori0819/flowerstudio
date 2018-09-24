@@ -1,0 +1,50 @@
+// Project Styles
+// Remember to comment out unnecessary styles
+
+// Utilities
+@import "utilities/default";
+@import "utilities/variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Include Bourbon
+@import "tools/bourbon/bourbon";
+
+// Utilities
+@import "utilities/typography";
+@import "utilities/buttons";
+@import "utilities/form";
+@import "utilities/libraries";
+@import "utilities/social";
+@import "utilities/map";
+@import "utilities/slider";
+@import "utilities/spacing";
+@import "utilities/popup";
+@import "utilities/player";
+
+// Sections
+@import "sections/404";
+@import "sections/header";
+@import "sections/footer";
+@import "sections/page";
+@import "sections/single";
+@import "sections/navbar";
+
+// Shortcodes
+@import "shortcodes/blog";
+@import "shortcodes/building";
+@import "shortcodes/amenities";
+@import "shortcodes/suites";
+@import "shortcodes/features";
+@import "shortcodes/register";
+@import "shortcodes/box";
+
+
+// Breakpoints
+// For more info visit
+// https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+@import "breakpoints/breakpoint-between";
+@import "breakpoints/breakpoint-down";
+@import "breakpoints/breakpoint-only";
+@import "breakpoints/breakpoint-up";

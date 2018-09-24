@@ -1,0 +1,17 @@
+// Large play button (video only)
+.plyr__control--overlaid {
+  background: $primary;
+
+  &:hover,
+  &:focus {
+    background: $primary;
+  }
+}
+
+.plyr--full-ui input[type=range]{
+  color: $primary;
+}
+
+.plyr--video .plyr__controls .plyr__control:hover {
+    background: $primary;
+}

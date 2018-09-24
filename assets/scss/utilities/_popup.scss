@@ -1,0 +1,27 @@
+#page-popup {
+  position: relative;
+}
+.page_popup_close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 9994;
+  width: 35px;
+  height: 40px;
+  -webkit-appearance: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  color: $white;
+  font-style: normal;
+  font-size: 35px;
+  font-family: Arial, Baskerville, monospace;
+  line-height: 35px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  border: 0;
+  background: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
